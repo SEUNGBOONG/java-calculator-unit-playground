@@ -21,4 +21,6 @@ public class Calculate {
     public int divide(int x, int y) {
         return x / y;
     }
+
+    String a ="3";
 }
