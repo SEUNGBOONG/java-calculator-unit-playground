@@ -13,8 +13,8 @@ class CalculationTest {
 	@BeforeAll
 	static void setUp() {
 		calculation = new Calculation();
-		calculation.num1 = 20;
-		calculation.num2 = 10;
+		calculation.first_num = 20;
+		calculation.second_num = 10;
 	}
 
 	@DisplayName("더하기 기능 테스트")

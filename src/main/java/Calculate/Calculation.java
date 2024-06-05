@@ -1,22 +1,22 @@
 package Calculate;
 
 public class Calculation {
-	int num1;
-	int num2;
+	int first_num;
+	int second_num;
 
 	public int plusCalculate() {
-		return num1 + num2;
+		return first_num + second_num;
 	}
 
 	public int minusCalculate() {
-		return num1 - num2;
+		return first_num - second_num;
 	}
 
 	public int divCalculate() {
-		return num1 / num2;
+		return first_num / second_num;
 	}
 
 	public int multiCalculate() {
-		return num1 * num2;
+		return first_num * second_num;
 	}
 }
